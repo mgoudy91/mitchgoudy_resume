@@ -3,9 +3,11 @@
 
 \documentclass[margin]{res} 
 % the margin option causes section titles to appear to the left of body text 
-\textwidth=5.2in % increase textwidth to get smaller right margin
+\textwidth=6.0in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+
 
 \begin{document} 
  
@@ -15,29 +17,42 @@
 
 \address{ (720) 480-7126 \\ 2119 Spruce Street \#3 \\ Boulder, CO 80302 }
 
- 
 \begin{resume} 
  
 \section{Objective} 
-I am a focused Software Engineer, Web Developer, and Designer, that cares deeply about my work as well as how I can improve myself professionally. 
+  I am a focused Software Engineer, Web Developer, and Designer, that cares deeply about my work as well as how I can improve myself professionally. 
+
+ % Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Skills}
+   \begin{tabular}{l p{5.0in}}
+    {Languages:} & JavaScript, Ruby (Rails), HTML, CSS (SCSS), MySQL, PostgreSQL, Java, C, C++, PHP, XML, LaTeX \\ [0.5ex]
+    {Libraries:} & jQuery, AJAX, Google Maps, Liquid, Angular.js, Android (ADK), openGL, webGL \\ [0.5ex]
+    {Software:} & Sublime Text, Bash/Unix Shells, Git/Hg, mySQL Workbench, Photoshop/GIMP, WinSCP, VirtualBox, Eclipse, InDesign, JIRA \\ [0.5ex]
+    {OS:} & Linux (Ubuntu), Windows (8, 7, Vista, XP), OS X \\ [0.5ex]
+   \end{tabular}
 
 \section{Experience}
  {\bf Web Developer,} Dolphin Micro, Louisville, CO  \hfill May 2013 - November 2013
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item Website and application development and design
- \item Rails, JavaScript, CSS, HTML, MySQL stack. 
+ \item Website and application development and design.
+ \item Worked in both team and solo settings to design, implement, test, and maintain websites and applications for a wide clientele base.
+ \item Handled simultaneous projects with various teams, deadlines, and requirements
  \item Worked on many high-profile contracts such as AT\&T and Old Navy.
+ \item Rails, JavaScript, jQuery, RSpec, CSS (SCSS), HTML, MySQL stack.
  \end{itemize}
 
-{\bf Intern,} Connextions, Broomfield, CO  \hfill December 2011 - December 2012
+ {\bf Intern,} Connextions, Broomfield, CO  \hfill December 2011 - December 2012
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item Web app development, front-end design and development, and back-end process management.
+ \item Created pharmacy-finding tool using JavaScript and Google Maps API. 
+ \item Wrote and maintained HIPAA-compliant code that utilized actual insurance provider and patient data.
  \item Worked in Groovy, Grails, HTML, JavaScript, jQuery, AJAX, and in-house visual process modeler.
  \end{itemize}
 
  {\bf Intern,} FirstBank, Lakewood, CO  \hfill May 2011 - August 2011
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item Web development and design and QA / testing.
+ \item Web development and design, and QA / testing.
+ \item Created and updated pages and features, as well as designed banners and graphics for company web presence.
  \item Worked in JavaScript, jQuery, Dreamweaver, Photoshop.
  \end{itemize}
 
@@ -47,19 +62,9 @@ I am a focused Software Engineer, Web Developer, and Designer, that cares deeply
  \item Worked in Java, JavaScript, XML, .NET, and AJAX. 
  \end{itemize}
 
- % Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
-\section{Skills}
-   \begin{tabular}{l p{4.25in}}
-    {Languages:} & JavaScript, Ruby (Rails), HTML, CSS (SCSS), MySQL, PostgreSQL, Java, C, C++, PHP, XML, LaTeX \\ [0.5ex]
-    {Libraries:} & jQuery, AJAX, Google Maps, Liquid, Angular.js, Android (ADK), openGL, webGL \\ [0.5ex]
-    {Software:} & Sublime Text, Bash/Unix Shells, Git/Hg, mySQL Workbench, Photoshop/GIMP, WinSCP, VirtualBox, Eclipse, InDesign, JIRA \\ [0.5ex]
-    {OS:} & Linux (Ubuntu), Windows (8, 7, Vista, XP), OS X \\ [0.5ex]
- \end{tabular}
-
 \section{Education} 
-  BS, Computer Science from University of Colorado Boulder, (2010 - 2013)\\
-  Software Engineering focus \\
-  GPA 3.8 \\
+  BS of Computer Science from University of Colorado Boulder, (2010 - 2013)\\
+  GPA 3.8, Software Engineering focus \\
   Senior Project
   \begin{itemize} \itemsep -2pt  % reduce space between items
   \item NASA/LASP project
